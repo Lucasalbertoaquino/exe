@@ -5,7 +5,7 @@ float ler(){
     while(flag){
         printf("Digite o valor em centavos de R$0,01 a R$1,00: ");
         scanf("%f",&valor);
-        if((valor>1.00)||(valor<0.01)){
+        if((valor>1.00)||(valor<0.001)){
             printf("ERRO - Digite novamente!\n");
         }
         else{
